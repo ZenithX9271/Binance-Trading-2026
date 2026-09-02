@@ -1,0 +1,18 @@
+{
+  "ema_period": 100,
+  "adx_period": 10,
+  "adx_threshold": 20.0,
+  "_meta": {
+    "tuned_on": "2017-09-01..2020-12-31",
+    "objective": "max_sharpe",
+    "train_sharpe": 2.645,
+    "train_return_pct": 95.25,
+    "train_max_dd_pct": -44.78,
+    "train_trades": 43,
+    "assets": [
+      "SOLUSDT",
+      "BTCUSDT"
+    ],
+    "note": "Selected on pre-2021 data only. 2021-2026 results are out-of-sample."
+  }
+}
